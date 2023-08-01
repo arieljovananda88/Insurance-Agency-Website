@@ -1,3 +1,5 @@
+"use client";
+
 import React, {useState} from 'react'
 import Link from 'next/link'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
@@ -6,12 +8,13 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
 
     const handleNav = () => {
+        console.log("kepencet")
         setNav(!nav)
     }
 
     console.log(nav)
   return (
-    <div className=' left-0 top-0 w-full z-10 ease-in duration-300 shadow-md'>
+    <div className='bg-white z-40 ease-in duration-300 shadow-md fixed inset-x-0 top-0'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
             <Link href = "/">
                 <h1>
@@ -40,14 +43,12 @@ const Navbar = () => {
                     </Link>
                 </li>
             </ul>
-            <div onClick={handleNav} className='block sm:hidden'>
+            <div onClick={handleNav} className='block sm:hidden z-40'>
                 {nav ? (<AiOutlineClose size = {20} style={{ color: `white` }} />) : (<AiOutlineMenu size = {20}/>)}
-                {/* <AiOutlineMenu size = {20}></AiOutlineMenu> */}
 
             </div>
             <div className={
-                nav ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center text-white' : 
-                'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center text-white'}>
+                `sm:hidden absolute top-0 ${nav ? "translate-x-0" : "translate-x-full"} transition duration-300 right-0 bottom-0 flex justify-center items-center w-[80vw] h-screen bg-black text-center text-white`}>
                 <ul>
                     <li onClick={handleNav} className='p-4'>
                         <Link href = '/about'>
