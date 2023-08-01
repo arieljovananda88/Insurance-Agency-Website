@@ -311,6 +311,7 @@
   "entryCSSFiles": {
     "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/layout": {
       "modules": [
+        "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/public/styles.css",
         "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/globals.css",
         "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
       ],

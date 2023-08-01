@@ -34,6 +34,23 @@ export default function Home() {
               <button className={styles.overlayButton}>Get Started</button>
             </Link>
           </div>
+          <div style={{padding: '10px'}}>
+            <h1 className={styles.blueText} style={{bottom: '18vw'}}>
+              Selamat Datang
+            </h1>
+            <p className={styles.paragraphText} style={{bottom: '19vw'}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <div className={styles.ovalBlueText} style={{position: 'relative', bottom: '12vw', left: '22vw' }}>
+              Prinsip Perusahaan
+            </div>
+            <h1 className={styles.blueText} style={{bottom: '10vw'}}>
+              Menjadi agensi terbesar dan terbaik di Asia Pasifik
+            </h1>
+            <p className={styles.paragraphText} style ={{bottom: '10.5vw'}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+          </div>
       </div>
     </main>
   )
