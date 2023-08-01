@@ -14,8 +14,6 @@
 
 .styles_overlayParagraph__xJOni{
     position: relative;
-    bottom: 34vw;
-    left: 32.7vw;
     transform: translate(-50%, -50%);
     color: #8E8E8E;
     text-align: left;
@@ -52,12 +50,13 @@
     text-align: justify;
     width: 70vw;
     position: relative;
-    left: 10.8vw
 }
 
 .styles_ovalBlueText__cV3S7{
+    position: relative;
     transform: translate(-50%, -50%);
     padding: 8px 30px;
+    left: 22vw;
     background-color: white;
     color: #246BD6;
     border: 2px solid #246BD6;
@@ -65,4 +64,45 @@
     font-size: 2vw;
     font-weight: bold;
     width: 23vw;
+}
+
+.styles_ovalGreyText__18pG1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 30px;
+    background-color: #F2F2F2;
+    color: black;
+    border: 2px solid #CDCDCD;
+    border-radius: 20px;
+    font-size: 1vw;
+    width: 40vw;
+    height: 6vw;
+    
+
+}
+
+.styles_imageAndTextContainer__Rs5Td{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.styles_textContainer__e2Drg{
+    display: flex;
+    flex-direction: column;
+}
+
+.styles_flexImage__MaSe_{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.styles_whiteContainer__VfKi0{
+    background-color: white;
+    border: 2px;
+    border-radius: 20px;
 }

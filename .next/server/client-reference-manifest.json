@@ -319,6 +319,10 @@
         "static/css/app/layout.css"
       ]
     },
+    "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/about/page": {
+      "modules": [],
+      "files": []
+    },
     "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/page": {
       "modules": [
         "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/styles.module.css"
