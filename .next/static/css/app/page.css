@@ -37,3 +37,32 @@
     font-size: 2.5vw;
     width: 23vw;
 }
+
+.styles_blueText__5df4X{
+    position: relative;
+    left: 60vw;
+    transform: translate(-50%, -50%);
+    color: #246BD6;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.styles_paragraphText__db_GS{
+    text-align: justify;
+    width: 70vw;
+    position: relative;
+    left: 10.8vw
+}
+
+.styles_ovalBlueText__cV3S7{
+    transform: translate(-50%, -50%);
+    padding: 8px 30px;
+    background-color: white;
+    color: #246BD6;
+    border: 2px solid #246BD6;
+    border-radius: 40px;
+    font-size: 2vw;
+    font-weight: bold;
+    width: 23vw;
+}
