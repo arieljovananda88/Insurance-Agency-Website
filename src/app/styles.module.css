@@ -1,65 +1,65 @@
-.overlayHeading{
-    position: relative;
-    bottom: 30vw;
-    left: 60vw;
-    transform: translate(-50%, -50%);
-    color: #14037D;
-    text-align: left;
-    font-weight: bold;
-    font-size: 5vw;
+.overlayHeading {
+  position: relative;
+  bottom: 30vw;
+  left: 60vw;
+  transform: translate(-50%, -50%);
+  color: #14037d;
+  text-align: left;
+  font-weight: bold;
+  font-size: 5vw;
 }
 
-.overlayParagraph{
-    position: relative;
-    bottom: 34vw;
-    left: 32.7vw;
-    transform: translate(-50%, -50%);
-    color: #8E8E8E;
-    text-align: left;
-    font-size: 2vw;
-    width: 45vw
+.overlayParagraph {
+  position: relative;
+  bottom: 34vw;
+  left: 32.7vw;
+  transform: translate(-50%, -50%);
+  color: #8e8e8e;
+  text-align: left;
+  font-size: 2vw;
+  width: 45vw;
 }
 
-.overlayButton{
-    position: relative;
-    bottom: 30vw;
-    left: 21.5vw;
-    transform: translate(-50%, -50%);
-    padding: 5px 15px;
-    background-color: #14037D;
-    color: white;
-    cursor: pointer;
-    border: none;
-    border-radius: 40px;
-    font-size: 2.5vw;
-    width: 23vw;
+.overlayButton {
+  position: relative;
+  bottom: 30vw;
+  left: 21.5vw;
+  transform: translate(-50%, -50%);
+  padding: 5px 15px;
+  background-color: #14037d;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  font-size: 2.5vw;
+  width: 23vw;
 }
 
-.blueText{
-    position: relative;
-    left: 60vw;
-    transform: translate(-50%, -50%);
-    color: #246BD6;
-    text-align: left;
-    font-weight: bold;
-    font-size: 2vw;
+.blueText {
+  position: relative;
+  left: 60vw;
+  transform: translate(-50%, -50%);
+  color: #246bd6;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2vw;
 }
 
-.paragraphText{
-    text-align: justify;
-    width: 70vw;
-    position: relative;
-    left: 10.8vw
+.paragraphText {
+  text-align: justify;
+  width: 70vw;
+  position: relative;
+  left: 10.8vw;
 }
 
-.ovalBlueText{
-    transform: translate(-50%, -50%);
-    padding: 8px 30px;
-    background-color: white;
-    color: #246BD6;
-    border: 2px solid #246BD6;
-    border-radius: 40px;
-    font-size: 2vw;
-    font-weight: bold;
-    width: 23vw;
+.ovalBlueText {
+  transform: translate(-50%, -50%);
+  padding: 8px 30px;
+  background-color: white;
+  color: #246bd6;
+  border: 2px solid #246bd6;
+  border-radius: 40px;
+  font-size: 2vw;
+  font-weight: bold;
+  width: 23vw;
 }

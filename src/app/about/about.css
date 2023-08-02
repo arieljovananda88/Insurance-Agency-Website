@@ -1,0 +1,58 @@
+.employee-bio {
+  gap: 20px;
+  margin: 50px;
+  padding: auto;
+}
+
+.employee-bios {
+  display: flex;
+  justify-content: center;
+}
+
+.company-img img {
+  display: flex;
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blueText {
+  left: 60vw;
+  color: #246bd6;
+  text-align: left;
+  font-weight: bold;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vw;
+}
+
+.greyText {
+  left: 60vw;
+  color: #8e8e8e;
+  text-align: left;
+  font-weight: bold;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+}
+
+.Paragraph {
+  text-align: justify;
+  width: 60%;
+  left: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company-description {
+  margin-top: 50px;
+}
+
+.company-principles {
+  margin-top: 50px;
+}
