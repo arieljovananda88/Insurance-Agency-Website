@@ -16,7 +16,7 @@ export default function Home() {
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}  />
           </div>
-          <div className={styles.overlayHeading}>
+          <div className={styles.overlayHeading} style={{fontSize: '5vw'}}>
             <h1>
               Kepercayaan dan
             </h1>
@@ -108,15 +108,56 @@ export default function Home() {
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: 'auto' }}/>
-            <div className={styles.flexImage} style ={{bottom: '17vw'}}>
-              <div className={styles.whiteContainer}>
-                From The Blog!
+            <div className={styles.flexImage} style ={{bottom: '26.5vw', left:'12%'}}>
+              <div className={`${styles.whiteContainer}`}>
+                <ul>
+                  <li className={styles.greyText}>
+                    From The Blog
+                  </li>
+                  <li className={styles.darkBlueText} style={{fontSize:'2vw', marginTop: '15px'}}>
+                    Judul Blog
+                  </li>
+                  <li style={{fontSize: '1vw', marginTop: '15px'}}>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                  </li>
+                  <li>
+                    <button className={styles.blueButton} style={{marginTop: '25px'}}>
+                      See More
+                    </button>
+                  </li>
+                </ul>
               </div>
               <div className={styles.whiteContainer}>
-                From The Blog!
+                <ul>
+                  <li className={styles.darkBlueText} style={{fontSize:'2vw', marginTop: '15px'}}>
+                    Our Details
+                  </li>
+                  <li className='font-bold' style={{marginTop: '20px', fontSize: '1vw'}}>
+                    Sebuah Nama Gedung
+                  </li>
+                  <li style={{fontSize: '1vw'}}>
+                    Alamat Ipsum is simply dummy text of the printing and typesetting industry. 
+                  </li>
+                  <li style={{marginTop: '20px'}}>
+                    +62 123 456 789
+                  </li>
+                  <li style={{marginTop: '15px', marginBottom: '20px'}}>
+                    info@perusahaan.co.id
+                  </li>
+                </ul>
               </div>
               <div className={styles.whiteContainer}>
-                From The Blog!
+                <ul>
+                  <li className={styles.darkBlueText} style={{fontSize:'2vw'}}>
+                    About Us
+                  </li>
+                  <li className='font-bold' style={{marginTop: '20px', fontSize: '1vw'}}>
+                    Sebuah Catchphrase!
+                  </li>
+                  <li style={{fontSize: '1vw', marginBottom: '10px'}}>
+                   Alamat Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  
+                  </li>
+                </ul>
               </div>
             </div>
       </div>

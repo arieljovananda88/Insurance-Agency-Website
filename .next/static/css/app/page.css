@@ -9,7 +9,6 @@
     color: #14037D;
     text-align: left;
     font-weight: bold;
-    font-size: 5vw;
 }
 
 .styles_overlayParagraph__xJOni{
@@ -105,4 +104,24 @@
     background-color: white;
     border: 2px;
     border-radius: 20px;
+    width: 24vw;
+    padding: 30px 20px;
+}
+
+.styles_greyText__uaTl0{
+    color: #d3d3d3
+}
+
+.styles_darkBlueText__kFmLF{
+    color: #14037D;
+    font-weight: bold;
+}
+
+.styles_blueButton__EkT3h{
+    color: white;
+    background-color: #246BD6;
+    border-radius: 20px;
+    width: 9vw;
+    height: 3vw;
+
 }
