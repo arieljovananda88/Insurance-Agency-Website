@@ -43,12 +43,18 @@
     text-align: left;
     font-weight: bold;
     font-size: 2vw;
+    @media screen and (max-width: 768px) {
+        font-size: 6vw; /* Font size for smaller screens */
+      }
 }
 
 .styles_paragraphText__db_GS{
     text-align: justify;
     width: 70vw;
     position: relative;
+    @media screen and (max-width: 768px) {
+        font-size: 3vw; /* Font size for smaller screens */
+      }
 }
 
 .styles_ovalBlueText__cV3S7{
@@ -63,6 +69,9 @@
     font-size: 2vw;
     font-weight: bold;
     width: 23vw;
+    @media screen and (max-width: 768px) {
+        font-size: 3vw; /* Font size for smaller screens */
+      }
 }
 
 .styles_ovalGreyText__18pG1{
@@ -86,6 +95,9 @@
     display: flex;
     align-items: start;
     gap: 30px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column /* Font size for smaller screens */
+      }
 }
 
 .styles_textContainer__e2Drg{
@@ -97,7 +109,9 @@
     position: relative;
     display: flex;
     align-items: center;
-    gap: 20px;
+    @media screen and (max-width: 768px) {
+        flex-direction: column /* Font size for smaller screens */
+      }
 }
 
 .styles_whiteContainer__VfKi0{
@@ -106,6 +120,9 @@
     border-radius: 20px;
     width: 24vw;
     padding: 30px 20px;
+    @media screen and (max-width: 768px) {
+        width: 70vw; /* Font size for smaller screens */
+      }
 }
 
 .styles_greyText__uaTl0{
@@ -123,5 +140,44 @@
     border-radius: 20px;
     width: 9vw;
     height: 3vw;
+}
 
+.styles_blueContainer__DDliI{
+    position: relative;
+    background-color: #D4E5FF;
+    border: 2px;
+    border-radius: 20px;
+    width: 76.5vw;
+    text-align: center;
+}
+
+.styles_lightBlueText__wXb_g{
+    color: #246BD6;
+    font-weight: bold;
+}
+
+
+
+.styles_gradientText__Le7xj{
+    position: relative;
+    background-image: linear-gradient(90deg,#14037D,#246BD6);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.4em;
+    left: 2.5vw;
+}
+
+.styles_charAndText__Y1_fO{
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 768px) {
+        flex-direction: column; /* Font size for smaller screens */
+      }
+}
+
+.styles_columnFlex__6bp_D{
+    display: flex;
+    flex-direction: column;
 }

@@ -100,6 +100,11 @@ export default function Home() {
             <div className={styles.ovalBlueText} >
             Value Perusahaan
             </div>
+            <div className={styles.blueContainer} style={{left: '10.5vw', marginBottom: '10vw'}}>
+              <span className={styles.gradientText} style={{fontSize:'13vw'}}>
+                SPEED
+                </span>
+            </div>
           </div>
           <Image 
             src="/landing-page/Background.png" 
@@ -108,7 +113,7 @@ export default function Home() {
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: 'auto' }}/>
-            <div className={styles.flexImage} style ={{bottom: '26.5vw', left:'12%'}}>
+            <div className={styles.flexImage} style ={{bottom: '26.5vw', left:'12%', gap: '20px'}}>
               <div className={`${styles.whiteContainer}`}>
                 <ul>
                   <li className={styles.greyText}>
