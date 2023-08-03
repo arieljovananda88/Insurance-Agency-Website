@@ -1,39 +1,38 @@
-import React from "react";
+import React, { Component } from "react";
 import "./about.css";
 import styles from "../styles.module.css";
-
-// import Image from "next/image";
+import Image from "next/image";
+import Carousel from "./carousel";
 
 // Import your employee data here (e.g., an array of objects containing employee information)
-
 const AboutPage: React.FC = () => {
   // Replace these placeholder data with actual information
   const employeeBios = [
     {
-      imgurl: "../About/Foto About.png",
+      imgurl: "../About/Mask Group.png",
       name: "John Doe",
       position: "CEO",
-      bio: "John is a visionary leader with a passion for innovation...",
+      bio: `"John is a visionary leader with a passion for innovation..."`,
     },
     {
-      imgurl: "/About/Group 40.png",
+      imgurl: "../About/Mask Group.png",
       name: "Jane Smith",
       position: "CTO",
-      bio: "Jane is a tech enthusiast with expertise in cutting-edge technologies...",
+      bio: `"Jane is a tech enthusiast with expertise in cutting-edge technologies..."`,
     },
     {
-      imgurl: "/About/Group 40.png",
+      imgurl: "../About/Mask Group.png",
       name: "Bob Johnson",
       position: "CFO",
-      bio: "Bob is a financial expert with a proven track record of success...",
+      bio: `"Bob is a financial expert with a proven track record of success..."`,
     },
     // Add more employees here
   ];
 
   return (
     <div>
-      <div className="company-img" style={{ marginTop: "150px" }}>
-        <img src="/About/Foto About.png" alt="About" />
+      <div style={{ marginTop: "150px" }}>
+        <Carousel />
       </div>
       <div className="company-description" style={{ padding: "10px" }}>
         <div className="blueText" style={{ bottom: "18vw" }}>
@@ -60,9 +59,31 @@ const AboutPage: React.FC = () => {
       <div className="employee-bios" style={{ bottom: "20vw" }}>
         {employeeBios.map((employee, index) => (
           <div className="employee-bio" key={index}>
-            <h2>{employee.name}</h2>
-            <p>{employee.position}</p>
-            <p>{employee.bio}</p>
+            <img src={employee.imgurl} alt="employee" />
+            <h2
+              className="blueText"
+              style={{ fontSize: "20px", marginBottom: "10px" }}
+            >
+              {employee.name}
+            </h2>
+            <p
+              className="font-Inter"
+              style={{
+                fontStyle: "italic",
+                fontSize: "15px",
+                fontWeight: 100,
+                color: "#BFBFBF",
+                marginBottom: "10px",
+              }}
+            >
+              {employee.position}
+            </p>
+            <p
+              className="font-Inter"
+              style={{ fontSize: "12px", color: "#949494" }}
+            >
+              {employee.bio}
+            </p>
           </div>
         ))}
       </div>

@@ -1,12 +1,23 @@
 .employee-bio {
   gap: 20px;
-  margin: 50px;
-  padding: auto;
+  margin-top: 37px;
+  margin-right: 20px;
+  width: 379px; /* Atur lebar box */
+  height: 223px; /* Atur tinggi box */
+  padding: 20px;
+  border: 0.5px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Nilai alpha yang lebih rendah: 0.1 */
 }
 
 .employee-bios {
   display: flex;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  left: 110vw;
+  max-width: 70%;
 }
 
 .company-img img {
@@ -18,24 +29,16 @@
 }
 
 .blueText {
-  left: 60vw;
   color: #246bd6;
   text-align: left;
   font-weight: bold;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 2vw;
 }
 
 .greyText {
-  left: 60vw;
   color: #8e8e8e;
   text-align: left;
   font-weight: bold;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 100;
@@ -43,16 +46,27 @@
 
 .Paragraph {
   text-align: justify;
-  width: 60%;
-  left: 60vw;
   margin-left: auto;
   margin-right: auto;
 }
 
 .company-description {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  left: 60vw;
 }
 
 .company-principles {
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  left: 60vw;
+}
+
+.font-Inter {
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
 }
