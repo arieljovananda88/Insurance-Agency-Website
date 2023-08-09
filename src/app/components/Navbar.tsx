@@ -14,7 +14,7 @@ const Navbar = () => {
 
     console.log(nav)
   return (
-    <div className='bg-white z-40 ease-in duration-300 shadow-md fixed inset-x-0 top-0'>
+    <div className='  bg-white z-40 ease-in duration-300 shadow-md fixed inset-x-0 top-0'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
             <Link href = "/">
                 <h1>

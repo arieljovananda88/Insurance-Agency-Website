@@ -6,15 +6,14 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main>
-      <div className=''>
+      <div className='overflow-x-hidden'>
         <div style={{ marginTop: '55px' }}>
           <Image 
           src="/landing-page/Group 40.png" 
           alt="landing-page" 
           width={400}
           height={0}
-          sizes="100vw"
-          style={{ width: '100%', height: 'auto' }}  />
+          style={{ width: '100%', height: 'auto', border: '10px #000000' }}  />
           </div>
           <div className={styles.overlayHeading} style={{fontSize: '5vw'}}>
             <h1>
@@ -126,7 +125,7 @@ export default function Home() {
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                   </li>
                   <li>
-                    <button className={styles.blueButton} style={{marginTop: '25px'}}>
+                    <button className={styles.blueButton} style={{marginTop: '25px', borderRadius: '20px', width: '9vw', height: '3vw'}}>
                       See More
                     </button>
                   </li>
