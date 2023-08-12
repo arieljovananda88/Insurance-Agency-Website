@@ -1,198 +1,69 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./src/app/styles.module.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
-.styles_overlayHeading__HkAnk{
-    position: relative;
-    bottom: 30vw;
-    left: 60vw;
-    transform: translate(-50%, -50%);
-    color: #14037D;
-    text-align: left;
-    font-weight: bold;
+.styles_overlayHeading__HkAnk {
+  position: relative;
+  bottom: 30vw;
+  left: 60vw;
+  transform: translate(-50%, -50%);
+  color: #14037d;
+  text-align: left;
+  font-weight: bold;
+  font-size: 5vw;
 }
 
-.styles_overlayParagraph__xJOni{
-    position: relative;
-    transform: translate(-50%, -50%);
-    color: #8E8E8E;
-    text-align: left;
-    font-size: 2vw;
-    width: 45vw
+.styles_overlayParagraph__xJOni {
+  position: relative;
+  bottom: 34vw;
+  left: 32.7vw;
+  transform: translate(-50%, -50%);
+  color: #8e8e8e;
+  text-align: left;
+  font-size: 2vw;
+  width: 45vw;
 }
 
-.styles_overlayButton__AXmxY{
-    position: relative;
-    bottom: 30vw;
-    left: 21.5vw;
-    transform: translate(-50%, -50%);
-    padding: 5px 15px;
-    background-color: #14037D;
-    color: white;
-    cursor: pointer;
-    border: none;
-    border-radius: 40px;
-    font-size: 2.5vw;
-    width: 23vw;
+.styles_overlayButton__AXmxY {
+  position: relative;
+  bottom: 30vw;
+  left: 21.5vw;
+  transform: translate(-50%, -50%);
+  padding: 5px 15px;
+  background-color: #14037d;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  font-size: 2.5vw;
+  width: 23vw;
 }
 
-.styles_blueText__5df4X{
-    position: relative;
-    left: 60vw;
-    transform: translate(-50%, -50%);
-    color: #246BD6;
-    text-align: left;
-    font-weight: bold;
-    font-size: 2vw;
-    @media screen and (max-width: 768px) {
-        font-size: 6vw; /* Font size for smaller screens */
-      }
+.styles_blueText__5df4X {
+  position: relative;
+  left: 60vw;
+  transform: translate(-50%, -50%);
+  color: #246bd6;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2vw;
 }
 
-.styles_paragraphText__db_GS{
-    text-align: justify;
-    width: 70vw;
-    position: relative;
-    @media screen and (max-width: 768px) {
-        font-size: 3vw; /* Font size for smaller screens */
-      }
+.styles_paragraphText__db_GS {
+  text-align: justify;
+  width: 70vw;
+  position: relative;
+  left: 10.8vw;
 }
 
-.styles_ovalBlueText__cV3S7{
-    position: relative;
-    transform: translate(-50%, -50%);
-    padding: 8px 30px;
-    left: 22vw;
-    background-color: white;
-    color: #246BD6;
-    border: 2px solid #246BD6;
-    border-radius: 40px;
-    font-size: 2vw;
-    font-weight: bold;
-    width: 23vw;
-    @media screen and (max-width: 768px) {
-        font-size: 3vw; /* Font size for smaller screens */
-      }
+.styles_ovalBlueText__cV3S7 {
+  transform: translate(-50%, -50%);
+  padding: 8px 30px;
+  background-color: white;
+  color: #246bd6;
+  border: 2px solid #246bd6;
+  border-radius: 40px;
+  font-size: 2vw;
+  font-weight: bold;
+  width: 23vw;
 }
 
-.styles_ovalGreyText__18pG1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-    padding: 8px 30px;
-    background-color: #F2F2F2;
-    color: black;
-    border: 2px solid #CDCDCD;
-    border-radius: 20px;
-    font-size: 1vw;
-    width: 40vw;
-    height: 6vw;
-    
-
-}
-
-.styles_imageAndTextContainer__Rs5Td{
-    display: flex;
-    align-items: start;
-    gap: 30px;
-    @media screen and (max-width: 768px) {
-        flex-direction: column /* Font size for smaller screens */
-      }
-}
-
-.styles_textContainer__e2Drg{
-    display: flex;
-    flex-direction: column;
-}
-
-.styles_flexImage__MaSe_{
-    position: relative;
-    display: flex;
-    align-items: center;
-    @media screen and (max-width: 768px) {
-        flex-direction: column /* Font size for smaller screens */
-      }
-}
-
-.styles_whiteContainer__VfKi0{
-    background-color: white;
-    border: 2px;
-    border-radius: 20px;
-    width: 24vw;
-    padding: 30px 20px;
-    @media screen and (max-width: 768px) {
-        width: 70vw; /* Font size for smaller screens */
-      }
-}
-
-.styles_greyText__uaTl0{
-    color: #d3d3d3
-}
-
-.styles_darkBlueText__kFmLF{
-    color: #14037D;
-    font-weight: bold;
-}
-
-.styles_blueButton__EkT3h{
-    color: white;
-    background-color: #246BD6;
-    border-radius: 20px;
-    width: 9vw;
-    height: 3vw;
-}
-
-.styles_blueContainer__DDliI{
-    position: relative;
-    background-color: #D4E5FF;
-    border: 2px;
-    border-radius: 20px;
-    width: 76.5vw;
-    text-align: center;
-}
-
-.styles_lightBlueText__wXb_g{
-    color: #246BD6;
-    font-weight: bold;
-}
-
-
-
-.styles_gradientText__Le7xj{
-    position: relative;
-    background-image: linear-gradient(90deg,#14037D,#246BD6);
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
-    font-weight: bold;
-    letter-spacing: 0.4em;
-    left: 2.5vw;
-}
-
-.styles_charAndText__Y1_fO{
-    display: flex;
-    flex-direction: row;
-    @media screen and (max-width: 768px) {
-        flex-direction: column; /* Font size for smaller screens */
-      }
-}
-
-.styles_columnFlex__6bp_D{
-    display: flex;
-    flex-direction: column;
-}
-
-.styles_rowFlex__G2Ks3{
-    display: flex;
-    flex-direction: row;
-    gap: 1.3%;
-}
-
-.styles_greySearchBar__mQmyR{
-    background-color: #F5F5F5;
-    color: #D3D3D3;
-    border: 2px;
-    border-radius: 13px;
-    height: 6vh;
-    width: 100%;
-}
