@@ -87,6 +87,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/about/carousel.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/about/carousel.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -306,6 +314,14 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/about/carousel.tsx": {
+      "id": "(app-client)/./src/app/about/carousel.tsx",
+      "name": "*",
+      "chunks": [
+        "app/about/page:static/chunks/app/about/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -336,8 +352,14 @@
       ]
     },
     "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/about/page": {
-      "modules": [],
-      "files": []
+      "modules": [
+        "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/node_modules/slick-carousel/slick/slick-theme.css",
+        "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/node_modules/slick-carousel/slick/slick.css",
+        "/Users/arieljovananda/Documents/Personal/Proyek/Insurance-Agency-Website/src/app/about/about.css"
+      ],
+      "files": [
+        "static/css/app/about/page.css"
+      ]
     }
   }
 }
