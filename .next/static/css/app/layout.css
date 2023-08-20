@@ -591,6 +591,9 @@ video {
 .w-\[80vw\] {
   width: 80vw;
 }
+.w-screen {
+  width: 100vw;
+}
 .max-w-\[1240px\] {
   max-width: 1240px;
 }
@@ -611,6 +614,12 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.border {
+  border-width: 1px;
+}
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -622,8 +631,14 @@ video {
 .p-4 {
   padding: 1rem;
 }
+.p-7 {
+  padding: 1.75rem;
+}
 .text-center {
   text-align: center;
+}
+.font-bold {
+  font-weight: 700;
 }
 .text-white {
   --tw-text-opacity: 1;
