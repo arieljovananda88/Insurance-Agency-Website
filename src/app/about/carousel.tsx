@@ -30,10 +30,10 @@ export default function Carousel() {
   return (
     <div onMouseEnter={startAutoScroll} onMouseLeave={stopAutoScroll}>
       <Slider ref={sliderRef} {...settings}>
-        <div className="company-img" style={{ marginTop: "150px" }}>
+        <div className="company-img">
           <img src="/About/Foto About.png" alt="About" />
         </div>
-        <div className="company-img" style={{ marginTop: "150px" }}>
+        <div className="company-img">
           <img src="/About/Foto About.png" alt="About" />
         </div>
       </Slider>

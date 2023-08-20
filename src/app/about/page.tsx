@@ -31,16 +31,19 @@ const AboutPage: React.FC = () => {
 
   return (
     <div>
-      <div style={{ marginTop: "150px" }}>
+      <div>
         <Carousel />
       </div>
       <div className="company-description" style={{ padding: "10px" }}>
-        <div className="blueText" style={{ bottom: "18vw" }}>
+        <div
+          className="blueText"
+          style={{ bottom: "18vw", marginBottom: "20px" }}
+        >
           <h1>Tentang Kami</h1>
         </div>
         <div className="Paragraph" style={{ bottom: "19vw" }}>
           <p>
-            "Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
@@ -48,7 +51,7 @@ const AboutPage: React.FC = () => {
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum."
+            PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
       </div>
